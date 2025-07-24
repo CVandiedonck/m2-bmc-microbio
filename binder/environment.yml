@@ -16,27 +16,33 @@ dependencies:
   - jupyterlab-system-monitor
   - nodejs
   - pip
+  - gfortran_linux-64
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
-  - jupyter-archive=3.3.4
+  - jupyter-archive
   # R environment
   - r-irkernel
-  - r-base>=4
+  - r-base>=4.1.0
   - r-tidyverse
   - r-rcpp
-  - r-factominer
-  - r-factoextra
   - r-dt
   - r-markdown
   - r-tidyverse
+  - r-repr
   - r-writexl
   - r-readxl
   - r-rcolorbrewer
+  - r-gtools
   - r-gplots
   - r-statmod
-  # JupyterLab Variable inspector
-  # https://github.com/lckr/jupyterlab-variableInspector
-  - r-repr
-  - pip:
-  # - lckr-jupyterlab-variableinspector
-    - matplotlib
+  - r-poppr
+  - r-moimix
+  - r-adgenet
+  - r-rehh
+  - r-ggpmisc
+  - r-ggprisms
+  - r-ggtext
+  - r-bioconductor-gdsfmt
+  - r-bioconductor-snprelate
+  - r-reconproGS 
+  - r-bioconductor-seqarray
